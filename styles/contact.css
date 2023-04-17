@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    /* background-color: black; */
+   /* width: 100%;  */
+   overflow-x: hidden;
+}
+.home {
+    width: 100%;
+    height: 100vh; 
+    
+}
+.navbar{
+    color: white;
+    background-color: black;
+    
+    
+}
+.list{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    padding: 10px;
+    margin-left:500px;
+    margin-top: -40px;
+    text-align: left;
+    text-indent: 40px;
+
+    
+}
+.navbar ul a{
+    text-decoration: none;
+    color:white;
+
+
+}
+.navbar ul a:hover{
+    cursor: pointer;
+    color:#CC8B50;
+}
+.logo{
+    color: #CC8B50;
+    padding: 10px;
+    padding-left: 30px;
+    font-style: italic ;
+
+}
+ .empty{
+    color: white;
+    width: 100px;
+    height: 10px;
+    padding-top: 40px;
+    margin-top: 20px;
+ }
+ .about{
+    background-color: black;
+    height: 50px;
+    color: white;
+    font-size:20px ;
+    padding: 10px;
+    padding-left: 30px;
+ }
+ .body{
+    background-color: black;
+    height: 80vh;
+    padding:30px 54px;
+   }
+   .contact{
+    background-color: black;
+    color: white;
+    height: 50px;
+    color: white;
+    font-size:15px ;
+    padding: 10px;
+    padding-left: 30px;
+   
+   }
+   .body input{
+    background-color: #1B1616;
+    border-style: none;
+    transition: .5s;
+    outline: none;
+    color: white;
+    width: 350px;
+    height:40px;
+    border-radius: 15px;
+    justify-content: left;
+    padding-left: 5px;
+   }
+   input [type="submit"]{
+    
+   }
+   input [type="submit"]:hover{
+    background-color: #CC8B50;
+    cursor: pointer;
+   }
+    #mess{
+    background-color: #1B1616;
+    border-style: none; 
+    border-radius: 15px;
+    padding-left: 5px; 
+    width: 350px;
+    }
+    .bod{
+        padding: 20px;
+       /* width: 50%; */
+        
+    /* display: flex; */
+    /* justify-content: end; */
+    /* vertical-align: auto; */
+
+    }
+    .bodp h3{color: white;
+
+    }
+    .bo{
+        color: #CC8B50;
+        font-size: 20px;
+    }
+  .body{
+    display: flex;
+    justify-content:space-between;
+  }
+ .footer{
+    background-color: black;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.footericon{
+    width: 32px;
+    height: 30px;
+}
+.cl1{
+    display: block;
+}
+@media screen and (max-width: 780px) {
+    .body{
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width:619){
+ .cl1{
+    display:none;
+ }   
+}

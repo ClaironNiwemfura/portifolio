@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    /* background-color: black; */
+   overflow-x: hidden; 
+}
+.home {
+    width: 100%;
+    height: 100vh; 
+    
+}
+.navbar{
+    color: white;
+    background-color: black;
+    
+    
+}
+.list{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    margin-left:500px;
+    margin-top: -40px;
+    text-align: left;
+    text-indent: 40px;
+
+    
+}
+.navbar ul a{
+    text-decoration: none;
+    color:white;
+
+
+}
+.navbar ul a:hover{
+    cursor: pointer;
+    color:#CC8B50;
+}
+.logo{
+    color: #CC8B50;
+    padding: 10px;
+    padding-left: 30px;
+    font-style: italic ;
+
+}
+ .h{
+    background-color: black;
+    color: #fff;
+    font-size:15px ;
+    padding: 10px;
+    padding-left: 30px;
+ }
+.img1{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+     background-repeat: no repeat;
+     /* opacity: 0.8; */
+ 
+}
+.img2 img{
+    border-radius:500px; 
+    /* background-image: url(/images/clairafter.jpg); */
+    height: 366px;
+    width:273 px;
+    /* position: absolute; */
+    
+
+  
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+
+    
+}
+.homep{
+    color: white;
+    font-size: 20px;
+    /* margin-top: -300px; */
+    width: 50%;
+    
+}
+.h4w{
+    color: #D38C4B;
+    padding-bottom: 20px;
+}
+.h4wo{
+    padding-bottom: 20px;
+}
+.p2{
+    border-radius: 10px;
+    background-color: #CC8B50;
+    padding: 7px;
+}
+.p3{
+    border-radius: 10px;
+    background-color: #704824;
+    padding: 7px;
+}
+.homec{
+    display :flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    padding: 0px 20px;
+}
+.homep2{
+    display :flex;
+    text-indent: 20px;
+    justify-content: space-between;
+}
+.homeg{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+}
+.homeh2{
+    color: white;
+    font-style: italic;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.homega{
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.homega1{
+    background-color: #1B1616;
+    width: 180px;
+    height: 186px;
+}
+.homega2{
+    background-color: #1B1616;
+    width: 180px;
+    height:186px;
+}
+.homega3{
+    background-color: #1B1616;
+    width: 180px;
+    height: 186px;
+}
+.homega4{
+    background-color: #1B1616;
+    width: 180px;
+    height: 186px;
+}
+.footer{
+    background-color: black;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* i{
+    height:50px;
+    width:40px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
